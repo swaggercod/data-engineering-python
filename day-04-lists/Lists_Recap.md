@@ -1,11 +1,12 @@
- Day 4: Lists Recap
-📚 Today I Learned About LISTS
+# Day 4: Lists Recap
+## 📚 Today I Learned About LISTS
 1. What is a List?
-python
+```python
 # A collection of ordered, mutable (changeable) elements
 my_list = [1, 2, 3, "hello", 4.5, True]
+```
 2. Indexing - Accessing Elements
-python
+```python
 fruits = ["apple", "banana", "cherry", "date"]
 
 # Positive indexing (0-based)
@@ -15,8 +16,9 @@ third_fruit = fruits[2]      # "cherry"
 # Negative indexing (from the end)
 last_fruit = fruits[-1]      # "date"
 second_last = fruits[-2]     # "cherry"
+```
 3. Slicing - Getting Parts of Lists
-python
+```python
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 # Basic slicing [start:stop:step]
@@ -28,8 +30,9 @@ reverse = numbers[::-1]         # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 # Omitting start/stop
 first_five = numbers[:5]        # [0, 1, 2, 3, 4]
 from_third = numbers[2:]        # [2, 3, 4, 5, 6, 7, 8, 9]
+```
 4. Mutating Lists - Changing Elements
-python
+```python
 # Lists are MUTABLE - we can change them!
 
 # Changing single element
@@ -49,8 +52,9 @@ colors.pop()                  # Remove last element
 colors.pop(0)                 # Remove first element
 colors.remove("yellow")       # Remove specific value
 del colors[1:3]              # Remove slice
+```
 5. Common List Methods
-python
+```python
 my_list = [1, 2, 3]
 
 # Length
@@ -75,8 +79,9 @@ sorted_list = sorted(numbers) # Returns new sorted list
 original = [1, 2, 3]
 shallow_copy = original.copy()     # Creates new list
 list_copy = original[:]            # Another way to copy
+```
 6. Data Engineering Applications
-python
+```python
 # Processing data batches
 batch_data = []
 for i in range(1000):
