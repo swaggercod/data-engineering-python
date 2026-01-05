@@ -1,4 +1,4 @@
-# Day 4: Lists Recap
+#  📘Day 4: Lists Recap
 ## 📚 Today I Learned About LISTS
 1. What is a List?
 ```python
