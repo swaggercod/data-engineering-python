@@ -1,4 +1,4 @@
-# 📘 Data Engineering Python - Day 3: Booleans & Conditionals
+# 📘 Day 3: Booleans & Conditionals
 ## 🎯 Today I Learned About BOOLEANS AND CONDITIONALS
 1. Boolean Values - The Foundation
 ```python
