@@ -191,19 +191,20 @@ Membership operators are fast for lookups in collections
 Boolean logic is essential for data validation and filtering
 
 ## 🎯 Best Practices
-python
-# ✅ DO
+```python
+ ✅ DO
 if not data:  # Checks for empty/None
     handle_empty_data()
     
-# ✅ DO use explicit comparisons for clarity
+ ✅ DO use explicit comparisons for clarity
 if value is None:
     handle_none()
     
-# ✅ DO use parentheses for complex expressions
+ ✅ DO use parentheses for complex expressions
 if (condition1 or condition2) and condition3:
     do_something()
 
-# ❌ DON'T compare boolean to True/False explicitly
+ ❌ DON'T compare boolean to True/False explicitly
 if is_valid == True:  # Bad
 if is_valid:          # Good
+```
