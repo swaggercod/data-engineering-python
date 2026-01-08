@@ -1,5 +1,5 @@
 #  📘Day 4: Lists Recap
-## 📚 Today I Learned About LISTS
+## 🎯  Today I Learned About LISTS
 1. What is a List?
 ```python
 # A collection of ordered, mutable (changeable) elements
